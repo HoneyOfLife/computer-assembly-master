@@ -459,8 +459,9 @@ template {
 .about__computer img {
   margin-top: 296px;
 }
-.about__computer img::before {
+.about__computer img::after {
   content: "";
+  position: absolute;
   display: block;
   width: 526px;
   height: 499px;
