@@ -1,0 +1,54 @@
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 27rem;
+
+  &__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    color: $white;
+  }
+
+  &__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: $white;
+    opacity: 0.5;
+    text-align: center;
+  }
+}
+
+.heading img {
+  transform: rotate(316deg);
+}
+
+.programs__weer {
+  margin-top: 9rem;
+}
+
+.programs__list p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: $white;
+  opacity: 0.5;
+}
+
+.programs__list h3 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: $white;
+}
+
+.test {
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}

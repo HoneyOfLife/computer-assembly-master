@@ -1,0 +1,43 @@
+.profession {
+  display: flex;
+  margin-top: 26rem;
+
+  &_item {
+    margin-top: 120px;
+  }
+
+  .now {
+    display: flex;
+    justify-content: space-around;
+    color: $white;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+  }
+
+  .title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+    color: $white;
+    margin: 0;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+
+  .subtitel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: $white;
+    opacity: 0.8;
+    text-align: center;
+  }
+
+  img {
+    display: inline-block;
+    position: initial;
+    margin-left: 13.7rem;
+  }
+}

@@ -1,0 +1,71 @@
+.teachers {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 24rem;
+}
+
+.teachers img {
+  transform: rotate(316deg);
+}
+
+.teachers__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 140%;
+  color: $white;
+  margin-left: 3rem;
+}
+
+.teachers__connect {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 11rem;
+}
+
+.teachers__connect p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: $white;
+  opacity: 0.8;
+  margin-left: -7px;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 140%;
+  color: $white;
+}
+
+.life {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: $white;
+  background-color: black;
+  order: 0;
+  flex-grow: 0;
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  padding: 10px 30px;
+  gap: 10px;
+  margin-left: 3.4rem;
+  cursor: pointer;
+
+  &:active {
+    background-color: orange;
+  }
+}
+
+.dop {
+  justify-content: center;
+}
+
+.indent {
+  padding-right: 25rem;
+}

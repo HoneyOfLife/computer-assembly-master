@@ -1,0 +1,54 @@
+.about {
+  min-height: 100vh;
+  width: 100%;
+  background-color: black;
+  justify-content: space-around;
+  // height: calc(100vh - 22rem);
+  padding: 5rem 0rem;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  }
+
+  &__computer img {
+    margin-top: 296px;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 526px;
+      height: 499px;
+      background-color: rgba(200, 154, 252, 1);
+    }
+  }
+
+  &__computer h2 {
+    margin-top: 269px;
+  }
+
+  &__computer {
+    display: flex;
+  }
+
+  &__texte {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 140%;
+    color: $white;
+    margin: 6.9rem 0 0 17.4rem;
+    border: 20rem;
+    align-items: baseline;
+
+    span {
+      font-size: 16px;
+      line-height: 160%;
+      color: $white;
+      padding: 4.7rem 0;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.brent {
+  display: flex;
+  margin-top: 23rem;
+}
+
+.brent img {
+  transform: rotate(177deg);
+}
+
+.titel_bisnes {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 140%;
+  color: $white;
+  margin: 0;
+  padding-left: 5rem;
+}
+
+.parther {
+  display: flex;
+  justify-content: center;
+  margin-left: 5rem;
+}
+
+.msi_icons {
+  padding: 5rem 6.6rem;
+  margin-left: -5rem;
+}
+
+.warning {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 110px;
+  justify-content: center;
+}

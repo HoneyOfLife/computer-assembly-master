@@ -1,0 +1,46 @@
+.order_course {
+  padding: 3.5rem 0;
+  background: $black;
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8rem;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba($white, 0.4);
+
+    &__bar {
+      // grid-column: 3/4;
+      // font-size: 16px;
+      // line-height: 150%;
+      color: rgba($white, 0.4);
+      display: flex;
+      justify-content: space-between;
+
+      span {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        color: $white;
+      }
+    }
+
+    &__board {
+      display: flex;
+      justify-content: space-between;
+
+      span {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 150%;
+        color: $white;
+      }
+    }
+  }
+}
